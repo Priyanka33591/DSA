@@ -38,7 +38,6 @@ public class UpdateIthBit {
     }
 
     public static int updateIthbit2(int n, int i, int newBit) {
-
         n = clearIthBit(n, i);
         int bitMask = newBit << i;
         return n | bitMask;

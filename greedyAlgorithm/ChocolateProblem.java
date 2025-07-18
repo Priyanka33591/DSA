@@ -6,7 +6,7 @@ import java.util.Collections;
 public class ChocolateProblem {
 
     public static void main(String[] args) {
-//      n = 4 , m = 6;
+ //      n = 4 , m = 6;
         Integer[] verCost = {2, 1, 3, 1, 4};
         Integer[] horCost = {4, 1, 2};
 

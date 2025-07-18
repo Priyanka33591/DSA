@@ -29,7 +29,7 @@ public class DiagonalSum {
         int sum = 0;
 
         for (int i = 0; i < mat.length; i++) {
-            //for primary diagonal
+            // for primary diagonal
             sum = sum + mat[i][i];
 
             //for secondary diagonal

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class BubbleSort {
 
-    //increasing order
+    // increasing order
     static void bubbleSortInAscendingOrder(int[] array){
 
         for (int i = 0; i < array.length - 1 ; i++) {

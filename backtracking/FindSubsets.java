@@ -18,7 +18,7 @@ public class FindSubsets {
             mainList.add(new ArrayList<>(list));
             return;
         }
-        // yes
+        //yes
         list.add(nums[i]);
          ans(nums,i+1, list, mainList);
         //backtrack

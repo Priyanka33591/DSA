@@ -10,7 +10,7 @@ public class LLinJCF {
         ll.addLast(2);
         ll.addFirst(0);
 
-//        print
+//       print
         System.out.println(ll);
 
 //        remove

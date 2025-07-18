@@ -2,6 +2,7 @@ package Strings;
 
 public class Palindrome {
 
+
     public static boolean palindrome(String str){
         String str2 = "";
         for (int i = str.length() - 1; i >= 0 ; i--) {

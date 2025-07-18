@@ -7,7 +7,6 @@ public class NthFibonacci {
             return n;
         }
 
-
         int fibN = nthFibonacci(n - 1) + nthFibonacci(n - 2);
         return fibN;
     }

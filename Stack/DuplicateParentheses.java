@@ -6,7 +6,7 @@ public class DuplicateParentheses {
     public static void main(String[] args) {
         System.out.println(isDuplicateParentheses("((a+b)+(c+d))"));
     }
-// Tc- O(N)
+//  Tc- O(N)
     public static boolean isDuplicateParentheses(String str) {
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < str.length(); i++) {

@@ -6,7 +6,6 @@ public class Arrays2D {
     static Scanner scan = new Scanner(System.in);
 
     public static int[][] create2DArrays(int[][] matrix) {
-
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
                 matrix[i][j] = scan.nextInt();

@@ -19,7 +19,9 @@ public class IndianCoins {
                 }
             }
         }
+        
         System.out.println(count);
         System.out.println(ans);
+    
     }
 }

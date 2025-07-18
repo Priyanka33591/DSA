@@ -14,6 +14,8 @@ public class GetithBit {
         if(((1 << i) & n) == 0 ){
             return 0;
         }
+        
         return 1;
     }
+    
 }

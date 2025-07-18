@@ -6,6 +6,7 @@ import java.util.Collections;
 public class Arraylist {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
+        
 //      add operation - 0(1)
         list.add(1);
         list.add(2);

@@ -12,6 +12,7 @@ public class FindPermutations {
 
     public static void findPermutation(String str, String ans) {
 //        base case
+        
         if (str.isEmpty()) {
             System.out.print(" [" + ans + "] ");
             return;

@@ -1,7 +1,7 @@
 package arrays;
 
 public class BinarySearch {
-
+tc - O(logN)
     static int binarySearch(int[] numbers , int key){
         int first = 0;
         int last = numbers.length;

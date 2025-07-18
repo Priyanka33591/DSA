@@ -10,7 +10,6 @@ public class FirstOccurrence {
         if (key == arr[i]) {
             return i;
         }
-
         return firstOccurrence(arr, key, ++i);
 
     }
